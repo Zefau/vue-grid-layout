@@ -82,6 +82,7 @@ module.exports = {
 				label: '简体中文',
 				ariaLabel: '选择语言',
 				algolia: {
+					ApplicationID:'	J97OF0HDY4',
 					apiKey: '5a61305d32d622ea1ddd0e41665f1a03',
 					indexName: 'vue_grid_layout_cn'
 				  },
