@@ -25,18 +25,18 @@ module.exports = {
 	themeConfig: {
 		smoothScroll: true,
 		logo: '/assets/img/logo.png',
-		repo: 'jbaysolutions/vue-grid-layout',
+		repo: 'ygj6/vue-grid-layout',
 		docsDir: 'website/docs',
 		editLinks: true,
-		algolia: {
-		  apiKey: '2f143d1edd24605564065dd02bf0a22b',
-		  indexName: 'vue_grid_layout'
-		},
 		locales: {
 			'/': {
 				selectText: 'Languages',
 				label: 'English',
 				ariaLabel: 'Select language',
+				algolia: {
+					apiKey: '2f143d1edd24605564065dd02bf0a22b',
+					indexName: 'vue_grid_layout'
+				  },
 				sidebar: {
 					'/guide/': [
 						{
@@ -81,6 +81,10 @@ module.exports = {
 				selectText: '选择语言',
 				label: '简体中文',
 				ariaLabel: '选择语言',
+				algolia: {
+					apiKey: '5a61305d32d622ea1ddd0e41665f1a03',
+					indexName: 'vue_grid_layout_cn'
+				  },
 				sidebar: {
 					'/zh/guide/': [
 						{
