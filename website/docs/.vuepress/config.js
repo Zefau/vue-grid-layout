@@ -84,7 +84,11 @@ module.exports = {
 				algolia: {
 					appId:'J97OF0HDY4',
 					apiKey: 'b87acde775825645609180e80fc51002',
-					indexName: 'vue_grid_layout_cn'
+					indexName: 'vue_grid_layout_cn',
+				        algoliaOptions: {
+				           hitsPerPage: 10,
+				           facetFilters: ""
+			                }
 				  },
 				sidebar: {
 					'/zh/guide/': [
