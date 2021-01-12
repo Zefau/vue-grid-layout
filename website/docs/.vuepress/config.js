@@ -27,21 +27,16 @@ module.exports = {
 		logo: '/assets/img/logo.png',
 		repo: 'ygj6/vue-grid-layout',
 		docsDir: 'website/docs',
-		editLinks: true,
-		algolia: {
-			appId:'J97OF0HDY4',
-			apiKey: 'b87acde775825645609180e80fc51002',
-			indexName: 'vue_grid_layout_cn',
-			algoliaOptions: {
-			   hitsPerPage: 10,
-			   facetFilters: ""
-				}
-		  },		
+		editLinks: true,	
 		locales: {
 			'/': {
 				selectText: 'Languages',
 				label: 'English',
 				ariaLabel: 'Select language',
+			        algolia: {
+				  apiKey: '2f143d1edd24605564065dd02bf0a22b',
+				  indexName: 'vue_grid_layout'
+				},
 				sidebar: {
 					'/guide/': [
 						{
@@ -86,6 +81,15 @@ module.exports = {
 				selectText: '选择语言',
 				label: '简体中文',
 				ariaLabel: '选择语言',
+				algolia: {
+					appId:'J97OF0HDY4',
+					apiKey: 'b87acde775825645609180e80fc51002',
+					indexName: 'vue_grid_layout_cn',
+					algoliaOptions: {
+					   hitsPerPage: 10,
+					   facetFilters: ""
+					}
+				},	
 				sidebar: {
 					'/zh/guide/': [
 						{
