@@ -2,9 +2,9 @@ name: Build and Test
 
 on:
   push:
-    branches: [ master ]
+    branches: [ eeee ]
   pull_request:
-    branches: [ master ]
+    branches: [ eeee ]
 
 jobs:
   build:
@@ -29,4 +29,4 @@ jobs:
     - name: Build
       run: yarn build
     - name: Unit test
-      run: yarn test
+      run: yarn test:unit
